@@ -1,0 +1,196 @@
+body{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+a{
+    text-decoration: none;
+}
+
+.head{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(11, 0, 65);
+    height: 646px;
+    width: 100%;
+    padding: 0%;
+    margin: 0% 5%;
+    border-radius: 30px;
+}
+
+.header-text{
+    color: white;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#header-heading{
+    font-size: 3em;
+    margin-bottom: 0px;
+    padding-top: 5%;
+
+}
+
+#header-textin p{
+    margin: 30px 0px 30px 0px;
+    padding-top: 2%;
+    font-size: 1.5em;
+}
+.header-button{
+    background-color: rgb(221, 0, 0);
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.fa-angle-right{
+    padding-left: 10px;
+}
+.header-img{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 9%;
+}
+.header-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/*****************
+ Header End
+ Middle Start
+******************/
+
+
+.middle-part{
+    display: flex;
+    margin: 40px 50px;
+    width: 100%;
+}
+.menu{
+    height: 312px;
+    width: 312px;
+    background-color: rgb(11, 0, 65);
+    border-radius: 10px;
+    display: block;
+}
+
+.menu-button{
+    background-color: white;
+    height: 64px;
+    width: 252px;
+    margin: 15px 22px 15px 22px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+.upcaming{
+    margin-top: 30px;
+}
+.blog{
+    background-color: rgb(221,0,0);
+    margin-bottom: 30px;
+}
+.Timetable{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 25px;
+}
+
+/*****************
+
+******************/
+
+.matchschedule{
+    border: solid;
+    border-color: rgba(227, 227, 227, 0.623);
+    border-top:none;
+    border-radius: 10px;
+    width: 312px;
+    height: 362px;
+    margin: 10px;
+}
+
+.blog-button h4{
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    height: 32px;
+    width: 100px;
+    padding-top: 5px;
+    margin-left: 10px; 
+}
+#thumbdown{
+    padding: 0px 10px 10px 10px;
+}
+
+.blog-down{
+    display: flex;
+}
+#blog-clock{
+    margin-right: 0px;
+}
+.blog-down p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#blog-comment{
+    margin-left: 60px;
+}
+
+/*****************
+
+******************/
+
+
+
+.footer{
+    height: 344px;
+    width: 100%;
+    background-color: rgb(11, 0, 65);
+    padding: 70px 60px 0 60px;
+    text-align: center;
+    color:rgb(91, 93, 92)
+}
+.upperfooter{
+    font-size: 30px;
+    color: white;
+}
+#hr{
+    width: 100%;
+    height: 1px;
+    color: white;
+}
+.lowerfooter{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: rgb(185,185,185);
+    padding-bottom: 20px;
+}
+
+
+
+.fa-brands{
+    font-size: 30px;
+    padding: 0px 40px;
+}
+
+
+/*
+Mobile Screen
+*/
+@media only screen and (max-width:576px) {
+    .middle-part {
+        display: none;
+    }
+
+    .head{
+        flex-direction: column;
+    }
+}

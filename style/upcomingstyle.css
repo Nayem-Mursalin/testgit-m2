@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+a{
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    background-color: rgb(11, 0, 65);
+    height: 646px;
+    width: 100%;
+    padding: 0% 5%;
+    margin: 0% 5%;
+    border-radius: 30px;
+}
+
+.header-text{
+    color: white;
+    width: 40%;
+    padding-top: 5%;
+}
+#header-heading{
+    font-size: 3em;
+    margin-bottom: 0px;
+    padding-top: 5%;
+
+}
+
+#header-textin p{
+    margin: 30px 0px 30px 0px;
+    padding-top: 2%;
+    font-size: 1.5em;
+}
+.header-button{
+    background-color: rgb(221, 0, 0);
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.fa-angle-right{
+    padding-left: 10px;
+}
+.header-img{
+    padding: 54px 80px 0px 50px;
+    padding-left: 5%;
+    padding-top: 3.7%;
+}
+.header-img img{
+    height: 37em;
+    width: 100%;
+}
+
+/*****************
+
+******************/
+
+
+.middle-part{
+    display: flex;
+    margin: 40px 50px;
+}
+.menu{
+    height: 312px;
+    width: 312px;
+    background-color: rgb(11, 0, 65);
+    border-radius: 10px;
+    display: block;
+}
+
+.menu-button{
+    background-color: white;
+    height: 64px;
+    width: 252px;
+    margin: 15px 22px 15px 22px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+.upcaming{
+    margin-top: 30px;
+    background-color: rgb(221,0,0);
+}
+.blog{
+    margin-bottom: 30px;
+}
+
+
+/*****************
+ Start Time table
+******************/
+
+.Timetable{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 25px;
+}
+.time-box{
+    height: 242px;
+    width: 312px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(219, 218, 218, 0.859);
+    display: inline;
+    margin: 10px;
+}
+.flag-text{
+    display: inline-flex;
+    padding: 50px 45px 0px 45px;
+}
+.vstxt{
+    text-align: center;
+    padding: 20px 9px;
+}
+.Time-heading{
+    padding-left: 75px;
+}
+.match-date{
+    padding-left: 65px;
+}
+
+/*****************
+
+******************/
+
+
+
+.footer{
+    height: 644px;
+    width: 100%;
+    background-color: rgb(11, 0, 65);
+    padding: 70px 60px 100px 60px;
+    text-align: center;
+    color:rgb(91, 93, 92)
+}
+.upperfooter{
+    font-size: 30px;
+    color: white;
+}
+#hr{
+    height: 1px;
+    color: white;
+}
+.lowerfooter{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: rgb(185,185,185);
+    padding-bottom: 20px;
+}
+
+.fa-brands{
+    font-size: 30px;
+    padding: 0px 40px;
+}
+
